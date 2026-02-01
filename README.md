@@ -32,9 +32,8 @@ Scenario: Lag = 7 days
 A key observation is that the predictive controller becomes more valuable as provisioning delays increase, indicating strong robustness in challenging operating conditions.
 
 Main Figure:
-	Cost vs SLA tradeoff across scenarios is available in:
-	reports/figures/frontiers.png
-
+Cost vs SLA tradeoff across scenarios is available in:
+![Policy Frontiers](reports/figures/frontiers.png)
 
 How to Reproduce:
 Create a virtual environment and install dependencies:

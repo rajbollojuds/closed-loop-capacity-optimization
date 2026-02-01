@@ -1,0 +1,5 @@
+We present a closed-loop capacity optimization framework that integrates time-series demand forecasting with proactive resource provisioning. Unlike reactive systems that respond after SLA violations occur, our approach anticipates demand and dynamically adjusts capacity to minimize both service violations and infrastructure cost.
+
+We evaluate the framework on simulated cloud workloads under normal conditions and multiple stress scenarios, including demand spikes, high stochastic noise, and long provisioning delays. Across all scenarios, the predictive controller consistently outperforms a reactive baseline, reducing SLA violations by up to 71% while also lowering average overprovisioning cost.
+
+Notably, the performance advantage increases as provisioning latency grows, demonstrating that predictive control becomes increasingly valuable in delayed and volatile environments. These results suggest that closed-loop forecasting and control can substantially improve the robustness and efficiency of large-scale infrastructure systems.

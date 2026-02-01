@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+matplotlib
+seaborn
+statsmodels
+ruptures
+cvxpy
+pulp
+jupyter
+pyyaml
